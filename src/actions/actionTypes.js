@@ -1,0 +1,1 @@
+export const XXXX_REQUEST_XXXX = 'XXXX_REQUEST_XXXX';

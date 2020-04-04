@@ -1,0 +1,178 @@
+@import "../../theme/_shared.scss"
+    
+.main-container
+  width: 100%
+  padding: 0
+  margin: 0
+  background: #F7F7FA
+  padding-right: 0 !important
+  padding-left: 0 !important
+
+.container-fluid-nav
+  background: $background-1
+  position: fixed
+  width: 100%
+  z-index: 9
+
+  .container
+    height: 69px
+
+.blur-bg
+  height: 360px
+  overflow: hidden
+  display: flex
+  padding: 0
+  align-items: center
+  background-color: black
+
+  img
+    width: 100%
+    filter: blur(10px)
+    opacity: 0.8
+
+.container-shop
+  transform: translateY(-100px)
+
+.container-info-user
+  background: white
+  border-radius: 10px
+  width: 100%
+  margin: 0 !important
+  padding: 20px 40px 20px 40px
+
+.container-info-user-row
+  margin: 0 !important
+  height: 143px
+  width: 50%
+
+  .col .row
+    margin: 0
+
+    svg
+      margin-left: 12px
+      fill: $accent-1
+
+  div:nth-child(2)
+    height: 100%
+    margin: 0
+    padding-left: 35px
+
+.container-img-profile
+  width: 140px
+  height: 140px
+  border-radius: 50%
+  overflow: hidden
+  display: inline-flex
+  align-items: center
+
+  img
+    width: 100%
+
+.container-info-social-media
+  width: 50%
+  justify-content: center
+  align-items: center
+
+  div:nth-child(4)
+    margin-right: 0px
+
+.button-social-media
+  width: 44px
+  height: 44px
+  background: $background-1
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 50px
+  margin-right: 25px
+  cursor: pointer
+  transition: 0.5s
+
+  svg
+    fill: white
+
+.button-chat
+  border-color: $accent-1
+  color: $accent-1
+  margin-left: 49px
+
+  p
+    margin: 0
+    font-family: 'Gibson-Regular'
+    font-size: 14px
+
+  svg
+    margin-right: 5px
+
+.container-nav-itens
+  padding-top: 36px
+  margin: 0 !important
+
+  .nav-tabs
+    width: 100%
+    border: none
+
+    .nav-item
+      width: 100%
+
+.nav-itens-products
+  padding: 0px 0px 5px 0px
+  padding-bottom: 5px
+  color: #495057
+  background-color: transparent
+  border-bottom-color: $accent-1
+  border-bottom-width: 3px
+  border-bottom-style: solid
+  font-size: 18px
+  font-family: 'Gibson-Semi-Bold'
+
+.container-products
+  padding-top: 20px
+  margin: 0 !important
+
+.product-style
+  background: white
+  border-radius: 10px
+  margin: 0px 20px 28px 0px
+  max-width: 200px !important
+  padding: 0 !important
+
+  div:last-child
+    padding: 0 15px
+
+  span
+    font-size: 14px
+    font-family: 'Gibson-Regular'
+    color: #454F63
+
+  p
+    &:first-of-type
+      margin: 12px 0 0 0px
+      font-size: 18px
+      font-family: 'Gibson-Semi-Bold'
+      color: #2A2E43
+
+    &:last-of-type
+      margin: 27px 0 12px 0
+      font-size: 22px
+      font-family: 'Gibson-Semi-Bold'
+      color: #2A2E43
+
+.product-img
+  width: 200px
+  height: 120px
+  overflow: hidden
+
+  img
+    width: 100%
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+
+.image-not-found
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  background: #E0E0E0
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
