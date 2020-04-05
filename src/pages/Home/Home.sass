@@ -1,5 +1,5 @@
 @import "../../theme/_shared.scss"
-    
+
 .main-container
   width: 100%
   padding: 0
@@ -176,3 +176,132 @@
   background: #E0E0E0
   border-top-left-radius: 10px
   border-top-right-radius: 10px
+
+// small screen desktop
+@media (min-width: 1024px) and (max-width: 1440px)
+  .navbar-hallo .navbar-nav:first-of-type
+    width: 40% !important
+
+  .button-chat
+    margin-left: 0px
+
+@media (min-width: 768px) and (max-width: 1023px)
+  .navbar-hallo span
+    width: 90px 
+
+  .navbar-hallo img
+    width: 100% !important
+
+  .navbar-hallo .navbar-nav:first-of-type
+    width: 30% !important
+    margin: auto
+  
+  .button-chat
+    margin-left: 9px
+
+  .container-info-user-row div:nth-child(2)
+    padding-left: 25px
+
+  .button-social-media
+    width: 35px
+    height: 35px
+    margin-right: 10px
+
+  .button-social-media svg
+    width: 16px
+    height: 16px
+  
+  .container-info-user
+    padding: 20px 10px 20px 10px
+
+@media only screen and (max-width: 424px)
+  .blur-bg
+    height: 220px
+
+  .container-info-user
+    padding: 10px 15px 10px 15px
+
+  .container-info-user-row
+    height: auto
+
+  .container-img-profile
+    width: 80px
+    height: 80px
+
+  .container-info-user-row
+    width: 100%
+
+  .container-info-user-row div:nth-child(2)
+    padding-left: 25px
+
+  .container-info-user-row .col .row svg
+    width: 15px
+
+  .container-info-social-media
+    width: 100%
+    margin: 0 !important
+    justify-content: space-around
+
+  .button-social-media
+    width: 34px
+    height: 34px
+    margin-right: 5px
+  
+  .button-social-media svg
+    width: 16px
+    height: 16px
+
+  .button-chat
+    margin-left: 10px
+
+  .button-arround
+    min-width: 100px
+
+  .product-style
+    min-width: 100%
+
+  .product-img
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+
+  .image-not-found
+    width: 100%
+
+  .image-not-found img
+    width: 50% !important
+
+  .navbar-logo-img
+    width: 60px
+
+  .navbar-hallo img
+    width: 100% !important
+  
+  .navbar-hallo .navbar-nav:first-of-type div svg
+    margin-left: 12px
+  
+  .navbar-hallo .navbar-nav:first-of-type div input
+    margin-left: 12px
+
+  .button-sell
+    min-width: 71px !important
+    min-height: 24px !important
+  
+  .navbar-hallo .navbar-nav:last-of-type svg
+    font-size: 21px
+
+  .navbar-hallo div:nth-child(4)
+    display: none !important
+
+  .button-sell p
+    font-size: 12px
+
+  .mg-right
+    margin-right: 10px
+
+  .navbar
+    justify-content: unset !important
+  
